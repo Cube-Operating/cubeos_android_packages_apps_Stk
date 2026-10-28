@@ -24,10 +24,10 @@
 	<ImageView
 	    android:id="@+id/icon"
         android:scaleType="fitCenter"
-        android:layout_width="@android:dimen/app_icon_size"
-        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
         android:layout_gravity="center_vertical"
-        android:layout_marginLeft="5dip"
+        android:layout_marginStart="16dp"
     />
 
 	<TextView
@@ -35,10 +35,15 @@
 	    android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:maxLength="234"
-        android:minHeight="?android:attr/listPreferredItemHeight"
-	    android:textAppearance="?android:attr/textAppearanceLarge"
+        android:minHeight="52dp"
+	    android:textSize="17sp"
+	    android:textColor="?android:attr/textColorPrimary"
+	    android:fontFamily="@*android:string/config_bodyFontFamily"
 	    android:gravity="center_vertical"
-	    android:layout_marginLeft="9dip"
+	    android:paddingTop="8dp"
+	    android:paddingBottom="8dp"
+	    android:layout_marginStart="12dp"
+	    android:layout_marginEnd="16dp"
 	/>
 
 </LinearLayout>
